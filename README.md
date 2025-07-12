@@ -37,3 +37,6 @@ FROM orders
 WHERE (address_pincode = 122001 OR address_pincode = 122002)  
   AND order_time < 12.3  
   AND apartment_floor >= 3;
+
+<img width="1920" height="1080" alt="Screenshot (778)" src="https://github.com/user-attachments/assets/1932df55-7c28-4206-8711-7ef68fcb36e0" />
+
