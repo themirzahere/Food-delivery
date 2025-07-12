@@ -7,8 +7,18 @@ customer_name (VARCHAR)
 address_pincode (INT)
 apartment_floor (INT)
 
-Output
+INPUT:
+
 /* Write a query to check the entries in the table.
 Restrict your query to return 3 rows. */
 select * from orders
 limit 3;
+
+ Output:
+┌────────────┬────────────┬─────────────┬───────────────┬─────────────────┬─────────────────┐
+│  order_id  │ order_time │ customer_id │ customer_name │ address_pincode │ apartment_floor │
+├────────────┼────────────┼─────────────┼───────────────┼─────────────────┼─────────────────┤
+│ 2304111234 │ 11.55      │ 53421       │ Jack          │ 122001          │ 2               │
+│ 2304111235 │ 12.05      │ 12445       │ Anna          │ 122001          │ 3               │
+│ 2304111236 │ 12.05      │ 12345       │ Alba          │ 122001          │ 4               │
+└────────────┴────────────┴─────────────┴───────────────┴─────────────────┴────────────────
