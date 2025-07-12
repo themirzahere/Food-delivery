@@ -11,7 +11,7 @@ apartment_floor (INT)
 
   INPUT 
 
-/* Write a query to output the distinct pin-codes from where orders have been received. */
+/* Query to output the distinct pin-codes from where orders have been received. */
 select distinct address_pincode from orders;
 
 
